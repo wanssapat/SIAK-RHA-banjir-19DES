@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RHA & LAPORAN AWAL TERPADU – Banjir Kabupaten Siak</title>
+<style>
+:root{
+  --green-dark:#064e3b;
+  --green-mid:#16a34a;
+  --green-light:#dcfce7;
+  --card:#ffffff;
+  --border:#bbf7d0;
+  --bg:#f0fdf4;
+  --highlight:#fef9c3;
+}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial;background:var(--bg);margin:0;padding:14px;color:#1f2937;}
+.wrap{max-width:1150px;margin:auto;}
+header{background:linear-gradient(135deg,var(--green-dark),var(--green-mid));color:white;padding:22px;border-radius:18px;text-align:center;}
+header h1{margin:0;font-size:22px;}
+header h2{margin:6px 0;font-size:15px;font-weight:500;}
+.clock{margin-top:10px;font-size:14px;background:rgba(255,255,255,.2);display:inline-block;padding:6px 14px;border-radius:20px;}
+.card{background:var(--card);margin-top:16px;padding:18px;border-radius:16px;box-shadow:0 4px 12px rgba(0,0,0,.08);}
+.group{margin-top:20px;}
+.group-title{font-weight:700;color:var(--green-dark);margin-bottom:10px;font-size:15px;display:flex;align-items:center;gap:8px;}
+.group-title::before{content:"🛈";font-size:16px;}
+table{width:100%;border-collapse:collapse;font-size:14px;}
+th,td{border:1px solid var(--border);padding:8px;vertical-align:top;}
+th{background:var(--green-light);color:var(--green-dark);}
+.highlight{background:var(--highlight);border-left:6px solid #eab308;padding:12px;margin:14px 0;border-radius:10px;}
+.map{width:100%;height:360px;border:0;border-radius:14px;}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;}
+button,a.btn{background:linear-gradient(135deg,var(--green-mid),#22c55e);border:none;color:white;padding:10px 18px;border-radius:26px;font-size:14px;cursor:pointer;text-decoration:none;display:flex;align-items:center;gap:6px;}
+button:hover,a.btn:hover{opacity:.9;}
+footer{margin-top:28px;background:var(--green-dark);color:white;text-align:center;padding:18px;border-radius:16px;font-size:13px;}
+@media print{.clock,.actions{display:none}body{background:white}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+<h1>RHA & LAPORAN AWAL TERPADU</h1>
+<h2>Klaster Kesehatan – Manajemen Krisis Kesehatan<br>Dinas Kesehatan Kabupaten Siak</h2>
+<div class="clock" id="clock"></div>
+</header>
+
+<!-- I. INFORMASI UMUM KEJADIAN -->
+<div class="card">
+<div class="group">
+<div class="group-title">I. INFORMASI UMUM KEJADIAN</div>
+<table>
+<tr><th>Jenis Bencana</th><td>Banjir akibat curah hujan tinggi & pasang air</td></tr>
+<tr><th>Tanggal Kejadian</th><td>Jumat, 19 Desember 2025</td></tr>
+<tr><th>Waktu Kejadian</th><td>Sungai Apit: 07.00 WIB<br>Pusako: 09.00 WIB</td></tr>
+<tr><th>Wilayah Terdampak</th><td>Kecamatan Sungai Apit & Pusako, Kabupaten Siak – Provinsi Riau</td></tr>
+<tr><th>Kondisi Saat Ini</th><td>Sungai Apit: rumah masih tergenang<br>Pusako: air belum surut di sebagian wilayah</td></tr>
+<tr><th>Update Laporan</th><td>19 Desember 2025, 20.30 WIB</td></tr>
+</table>
+</div>
+</div>
+
+<!-- II. DAMPAK & SASARAN -->
+<div class="card">
+<div class="group">
+<div class="group-title">II. DAMPAK & SASARAN TERDAMPAK</div>
+<table>
+<tr><th>Wilayah</th><th>KK</th><th>Jiwa</th><th>Bayi</th><th>Balita</th><th>Bumil</th><th>Lansia</th></tr>
+<tr><td>Sungai Apit</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>Pusako</td><td>27</td><td>87</td><td>2</td><td>12</td><td>1</td><td>6</td></tr>
+<tr style="font-weight:700;background:#ecfeff"><td>TOTAL</td><td>28 KK</td><td>90 Jiwa</td><td>2</td><td>12</td><td>1</td><td>7</td></tr>
+</table>
+</div>
+</div>
+
+<!-- III. STATUS PENGUNGSIAN -->
+<div class="card">
+<div class="group">
+<div class="group-title">III. STATUS PENGUNGSIAN – DETAIL PENGUNGSI</div>
+<table>
+<tr><th>Wilayah</th><th>Status</th><th>Lokasi Pengungsian</th><th>Alamat</th><th>KK</th><th>Jiwa</th><th>Bayi</th><th>Balita</th><th>Bumil</th><th>Lansia</th></tr>
+<tr><td>Sungai Apit</td><td>Nihil</td><td>-</td><td>-</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Pusako</td><td>Ada</td><td>Tenda Evakuasi Km 28 & Rumah Bapak Nainggolan</td><td>Kampung Dosan, Kecamatan Pusako</td><td>24</td><td>58</td><td>1</td><td>8</td><td>1</td><td>4</td></tr>
+<tr style="font-weight:700;background:#fef9c3"><td>TOTAL</td><td>-</td><td>-</td><td>-</td><td>24 KK</td><td>58 Jiwa</td><td>1</td><td>8</td><td>1</td><td>4</td></tr>
+</table>
+</div>
+</div>
+
+<!-- IV. PETA PENGUNGSIAN -->
+<div class="card">
+<div class="group">
+<div class="group-title">IV. PETA LOKASI PENGUNGSIAN</div>
+<iframe class="map"
+src="https://www.google.com/maps?q=0.8940,102.0680&output=embed"
+loading="lazy"></iframe>
+<p style="font-size:13px;opacity:.7;margin-top:6px">Lokasi Tenda Evakuasi: Km 28 – Sungai Limau & Rumah Pak Nainggolan, Kampung Dosan, Pusako</p>
+</div>
+</div>
+
+<!-- V. UPAYA KESEHATAN & PENANGANAN -->
+<div class="card">
+<div class="group">
+<div class="group-title">V. UPAYA KESEHATAN YANG TELAH DILAKUKAN</div>
+<ul>
+<li>🚑 Pengecekan langsung ke warga terdampak di Sungai Apit</li>
+<li>🩺 Pemantauan kesehatan pengungsi dan warga terdampak Pusako</li>
+<li>🤝 Koordinasi lintas sektor, termasuk penghulu & perangkat kampung</li>
+<li>💊 Pelayanan kesehatan dasar berjalan</li>
+<li>🏕️ Evakuasi dan penyiapan tenda pengungsian di Km 28</li>
+<li>🍲 Dapur umum berdiri, air bersih tersedia, pemantauan sanitasi dan kesehatan kelompok rentan</li>
+</ul>
+</div>
+</div>
+
+<!-- VI. KEBUTUHAN MENDESAK -->
+<div class="card">
+<div class="group">
+<div class="group-title">VI. KEBUTUHAN MENDESAK SAAT INI</div>
+<table>
+<tr><td>1. Obat-obatan</td></tr>
+<tr><td>2. Sembako</td></tr>
+<tr><td>3. Air bersih</td></tr>
+<tr><td>4. Pempers</td></tr>
+</table>
+</div>
+</div>
+
+<!-- VII. RENCANA TINDAK LANJUT -->
+<div class="card">
+<div class="group">
+<div class="group-title">VII. RENCANA TINDAK LANJUT – 20 DESEMBER 2025</div>
+<table>
+<tr><th>No</th><th>Kegiatan</th><th>Sasaran</th><th>Lokasi</th><th>Pelaksana</th></tr>
+<tr><td>1</td><td>Pemeriksaan kesehatan pengungsi</td><td>Balita, Bumil, Lansia</td><td>Posko Kampung Dosan</td><td>Tim EMT Pusako</td></tr>
+<tr><td>2</td><td>Pemantauan warga terdampak</td><td>Masyarakat umum</td><td>Sungai Kayu Ara</td><td>Tim EMT Sungai Apit</td></tr>
+<tr><td>3</td><td>Edukasi PHBS & penyakit pasca banjir</td><td>Keluarga terdampak</td><td>Wilayah genangan</td><td>-Tim EMT Sungai Apit -Tim EMT Pusako</td></tr>
+</table>
+</div>
+</div>
+
+<!-- VIII. KONTAK PERSON -->
+<div class="card">
+<div class="group">
+<div class="group-title">VIII. KONTAK PERSON LAPANGAN</div>
+<table>
+<tr><th>Nama</th><th>Kontak</th></tr>
+<tr><td>Penghulu Kampung Dosan</td><td>Zamri – 0812 6808 3358</td></tr>
+<tr><td>Bidan Desa</td><td>Yuce Gustilamarni – 0812 7683 9303</td></tr>
+<tr><td>EMT Puskesmas Pusako</td><td>Bambang – 0821 6982 0413</td></tr>
+<tr><td>EMT Puskesmas Sungai Apit</td><td>Ns. Ramlan, S.Kep – 0853 7456 1618</td></tr>
+<tr><td>Petugas Pustu Sungai Kayu Ara</td><td>Syami Yusrianti – 0853 6324 7472</td></tr>
+</table>
+</div>
+</div>
+
+<!-- DOKUMENTASI & UNDUH -->
+<div class="card">
+<div class="actions">
+<a class="btn" href="https://drive.google.com/drive/folders/1IVhHxFzmJOazW0RkioK2hbEJZLIGLhvC?usp=drive_link">📸 Galeri Kegiatan (Google Drive)</a>
+<button onclick="window.print()">⬇️ Download PDF</button>
+</div>
+</div>
+
+<footer>
+Klaster Kesehatan . Manajemen Krisis Kesehatan<br>
+Dinas Kesehatan Kabupaten Siak – Tahun 2025<br>
+</footer>
+
+</div>
+
+<script>
+function updateClock(){
+const n=new Date();
+document.getElementById("clock").innerHTML=
+n.toLocaleDateString("id-ID",{weekday:"long",year:"numeric",month:"long",day:"numeric"})+
+" | "+n.toLocaleTimeString("id-ID");
+}
+setInterval(updateClock,1000);updateClock();
+</script>
+
+</body>
+</html>
